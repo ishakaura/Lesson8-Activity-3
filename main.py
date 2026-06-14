@@ -1,20 +1,19 @@
 # CSS Animation Example
 
-css_code = """
-@keyframes colorChange {
+css_animation = """
+@keyframes moveBox {
     from {
-        background-color: red;
+        left: 0px;
     }
     to {
-        background-color: yellow;
+        left: 200px;
     }
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    animation: colorChange 2s infinite;
+.box {
+    position: relative;
+    animation: moveBox 3s infinite;
 }
 """
 
-print(css_code)
+print(css_animation)
