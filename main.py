@@ -1,19 +1,12 @@
-# CSS Animation Example
+# Cascading Effect Example
 
 css_code = """
-@keyframes colorChange {
-    from {
-        background-color: red;
-    }
-    to {
-        background-color: yellow;
-    }
+h1 {
+    color: blue;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    animation: colorChange 2s infinite;
+h1 {
+    color: red;
 }
 """
 
