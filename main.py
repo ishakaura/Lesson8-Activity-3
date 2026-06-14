@@ -1,17 +1,3 @@
-# CSS Selectors Example
-
-css_code = """
-h1 {
-    color: blue;
+selector {
+    property: value;
 }
-
-#heading {
-    color: red;
-}
-
-.text {
-    color: green;
-}
-"""
-
-print(css_code)
