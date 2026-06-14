@@ -1,8 +1,19 @@
-# Linear Gradient Example
+# CSS Animation Example
 
 css_code = """
-body {
-    background: linear-gradient(to right, red, yellow);
+@keyframes colorChange {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    animation: colorChange 2s infinite;
 }
 """
 
