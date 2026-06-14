@@ -1,13 +1,20 @@
 # Cascading Effect Example
 
 css_code = """
-h1 {
-    color: blue;
+@keyframes colorChange {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
 }
 
-h1 {
-    color: red;
+div {
+    width: 100px;
+    height: 100px;
+    animation: colorChange 2s infinite;
 }
 """
 
-print(css_code)
+print(css_animation)
