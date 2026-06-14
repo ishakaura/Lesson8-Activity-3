@@ -1,21 +1,13 @@
-# Internal CSS Example
+# External CSS Example
 
 html_code = """
 <html>
 <head>
-    <style>
-        h1 {
-            color: blue;
-        }
-
-        p {
-            color: green;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome to CSS</h1>
-    <p>This is Internal CSS.</p>
+    <p>This is an example of External CSS.</p>
 </body>
 </html>
 """
