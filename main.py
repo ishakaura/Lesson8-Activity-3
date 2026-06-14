@@ -1,8 +1,8 @@
-# Background Property Example
+# Linear Gradient Example
 
 css_code = """
 body {
-    background-color: lightblue;
+    background: linear-gradient(to right, red, yellow);
 }
 """
 
